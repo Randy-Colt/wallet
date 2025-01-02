@@ -1,0 +1,7 @@
+**/__pycache__
+**/.git*
+**/.venv
+**/.vscode
+**/docker-compose*
+**/Dockerfile*
+README.md

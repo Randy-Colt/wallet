@@ -1,0 +1,20 @@
+volumes:
+  pg_data:
+
+services:
+  db:
+    container_name: wallet-db
+    image: postgres:13.10
+    env_file: wallet_app/.env
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+
+  backend:
+    container_name: wallet
+    build: ./
+    ports:
+      - 8000:8000
+    depends_on:
+      - db
+    volumes:
+      - ./wallet_app:/app
