@@ -33,16 +33,16 @@ docker compose restart
 ```
 
 *Значения параметров:*
-SECRET_KEY='*secret_key*' - секретный ключ Django
-DEBUG=False - режим дебага; по умолчанию False
-SQLITE=True - использовать SQLite (True) или PostgreSQL (False)
-DEFAULT_ROUTER=False - использовать DefaultRouter в DRF (True) или нет (False); по умолчанию False
-POSTGRES_DB=wallet - имя базы данных PostgreSQL; по умолчанию 'django'
-POSTGRES_USER=user - имя пользователя PostgreSQL; по умолчанию 'django'
-POSTGRES_PASSWORD=password - пароль PostgreSQL; по умолчанию пустая строка
-DB_HOST=db - хост PostgreSQL; по умолчанию пустая строка
-DB_PORT=5432 - порт PostgreSQL; по умолчанию 5432
-ALLOWED_HOSTS=... - доступные хосты для Django; по умолчанию 'localhost, 127.0.0.1'
+- SECRET_KEY='*secret_key*' - секретный ключ Django
+- DEBUG=False - режим дебага; по умолчанию False
+- SQLITE=True - использовать SQLite (True) или PostgreSQL (False)
+- DEFAULT_ROUTER=False - использовать DefaultRouter в DRF (True) или нет (False); по умолчанию False
+- POSTGRES_DB=wallet - имя базы данных PostgreSQL; по умолчанию 'django'
+- POSTGRES_USER=user - имя пользователя PostgreSQL; по умолчанию 'django'
+- POSTGRES_PASSWORD=password - пароль PostgreSQL; по умолчанию пустая строка
+- DB_HOST=db - хост PostgreSQL; по умолчанию пустая строка
+- DB_PORT=5432 - порт PostgreSQL; по умолчанию 5432
+- ALLOWED_HOSTS=... - доступные хосты для Django; по умолчанию 'localhost, 127.0.0.1'
 
 ### Примеры запросов
 
