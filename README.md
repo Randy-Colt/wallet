@@ -12,7 +12,7 @@
 
 Клонировать репозиторий:
 ```
-git clone git@github.com:Randy-Colt/wallet.git
+git clone https://github.com/Randy-Colt/wallet.git
 cd wallet/
 ```
 Запустить контейнеры:
